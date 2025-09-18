@@ -1,0 +1,61 @@
+/* Spotify-inspired auth styling */
+
+.spotify-theme {
+  background-color: #121212;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.spotify-logo {
+  font-size: 48px;
+  font-weight: bold;
+  color: #1db954; /* Spotify green */
+  margin-bottom: 20px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.auth-form input {
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-btn {
+  background-color: #1db954;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 12px;
+  margin-top: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #1ed760;
+}
+
+.register-btn {
+  background: none;
+  border: none;
+  color: #1db954;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.register-btn:hover {
+  color: #1ed760;
+}
